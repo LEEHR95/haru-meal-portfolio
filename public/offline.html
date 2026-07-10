@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#D85A30" />
+  <title>오프라인 — 하루한끼</title>
+  <style>
+    :root {
+      --primary: #D85A30;
+      --bg: #FAF7F2;
+      --ink-1: #1A1410;
+      --ink-2: #6B5E54;
+      --surface: #FFFFFF;
+      --divider: #EDE8E3;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      height: 100%;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--ink-1);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px 20px;
+      text-align: center;
+      gap: 16px;
+    }
+
+    .icon {
+      font-size: 56px;
+      line-height: 1;
+    }
+
+    .title {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--ink-1);
+    }
+
+    .desc {
+      font-size: 14px;
+      color: var(--ink-2);
+      line-height: 1.6;
+      max-width: 280px;
+    }
+
+    .btn {
+      margin-top: 8px;
+      display: inline-block;
+      padding: 12px 28px;
+      background: var(--primary);
+      color: #fff;
+      font-size: 15px;
+      font-weight: 600;
+      border-radius: 12px;
+      text-decoration: none;
+      cursor: pointer;
+      border: none;
+    }
+
+    .brand {
+      margin-top: 40px;
+      font-size: 12px;
+      color: var(--ink-2);
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="icon">🐾</div>
+    <p class="title">인터넷 연결이 없어요</p>
+    <p class="desc">
+      네트워크를 확인한 뒤 다시 시도해주세요.<br />
+      이전에 방문한 페이지는 오프라인에서도 볼 수 있어요.
+    </p>
+    <button class="btn" onclick="location.reload()">다시 시도</button>
+    <p class="brand">하루한끼</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,2053 @@
+[
+  {
+    "id": "믹스견",
+    "nameKo": "믹스견",
+    "aliases": [
+      "믹스견",
+      "기타",
+      "핏불테리어 믹스견",
+      "도사 믹스견",
+      "아메리칸 핏불 테리어 믹스견",
+      "로트와일러 믹스견",
+      "아메리칸 스태퍼드셔 테리어 믹스견",
+      "스태퍼드셔 불 테리어 믹스견",
+      "말티즈믹스",
+      "믹스",
+      "푸들믹스"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": true
+  },
+  {
+    "id": "말티즈",
+    "nameKo": "말티즈",
+    "aliases": [
+      "말티즈"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "토이_푸들",
+    "nameKo": "토이 푸들",
+    "aliases": [
+      "푸들",
+      "토이 푸들",
+      "미니어쳐 푸들",
+      "미니어처 푸들"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "포메라니안",
+    "nameKo": "포메라니안",
+    "aliases": [
+      "포메라니안"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "비숑_프리제",
+    "nameKo": "비숑 프리제",
+    "aliases": [
+      "비숑 프리제"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "시츄",
+    "nameKo": "시츄",
+    "aliases": [
+      "시츄"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "진도견",
+    "nameKo": "진도견",
+    "aliases": [
+      "진도견",
+      "진돗개",
+      "진도개",
+      "Jindo",
+      "Korean Jindo Dog"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "요크셔_테리어",
+    "nameKo": "요크셔 테리어",
+    "aliases": [
+      "요크셔 테리어"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "치와와",
+    "nameKo": "치와와",
+    "aliases": [
+      "치와와"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "스피츠",
+    "nameKo": "스피츠",
+    "aliases": [
+      "스피츠"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "시바",
+    "nameKo": "시바",
+    "aliases": [
+      "시바"
+    ],
+    "sizeGroup": "medium",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "스탠다드_닥스훈트",
+    "nameKo": "스탠다드 닥스훈트",
+    "aliases": [
+      "스탠다드 닥스훈트"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "웰시_코기_펨브로크",
+    "nameKo": "웰시 코기 펨브로크",
+    "aliases": [
+      "웰시 코기 펨브로크"
+    ],
+    "sizeGroup": "medium",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "골든_리트리버",
+    "nameKo": "골든 리트리버",
+    "aliases": [
+      "골든 리트리버"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "래브라도_리트리버",
+    "nameKo": "래브라도 리트리버",
+    "aliases": [
+      "라브라도 리트리버",
+      "래브라도 리트리버"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "프렌치_불독",
+    "nameKo": "프렌치 불독",
+    "aliases": [
+      "프렌치 불독"
+    ],
+    "sizeGroup": "medium",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "미니어쳐_핀셔",
+    "nameKo": "미니어쳐 핀셔",
+    "aliases": [
+      "미니어쳐 핀셔"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "코카_스파니엘",
+    "nameKo": "코카 스파니엘",
+    "aliases": [
+      "코카 스파니엘"
+    ],
+    "sizeGroup": "medium",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "보더_콜리",
+    "nameKo": "보더 콜리",
+    "aliases": [
+      "보더 콜리"
+    ],
+    "sizeGroup": "medium",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "슈나우저",
+    "nameKo": "슈나우저",
+    "aliases": [
+      "슈나우져",
+      "슈나우저"
+    ],
+    "sizeGroup": "medium",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "이탈리안_그레이_하운드",
+    "nameKo": "이탈리안 그레이 하운드",
+    "aliases": [
+      "이탈리안 그레이 하운드"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "페키니즈",
+    "nameKo": "페키니즈",
+    "aliases": [
+      "페키니즈"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "라이카",
+    "nameKo": "라이카",
+    "aliases": [
+      "라이카"
+    ],
+    "sizeGroup": "medium",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "미니어쳐_슈나우저",
+    "nameKo": "미니어쳐 슈나우저",
+    "aliases": [
+      "미니어쳐 슈나우저"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "꼬똥_드_툴레아",
+    "nameKo": "꼬똥 드 툴레아",
+    "aliases": [
+      "꼬똥 드 뚤레아",
+      "꼬똥 드 툴레아"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "풍산견",
+    "nameKo": "풍산견",
+    "aliases": [
+      "풍산견",
+      "풍산개",
+      "Pungsan Dog"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "보스턴_테리어",
+    "nameKo": "보스턴 테리어",
+    "aliases": [
+      "보스턴 테리어"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "비글",
+    "nameKo": "비글",
+    "aliases": [
+      "비글"
+    ],
+    "sizeGroup": "medium",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "시베리안_허스키",
+    "nameKo": "시베리안 허스키",
+    "aliases": [
+      "시베리안 허스키"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "아메리칸_코카_스파니엘",
+    "nameKo": "아메리칸 코카 스파니엘",
+    "aliases": [
+      "아메리칸 코카 스파니엘"
+    ],
+    "sizeGroup": "medium",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "퍼그",
+    "nameKo": "퍼그",
+    "aliases": [
+      "퍼그"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "셔틀랜드_쉽독",
+    "nameKo": "셔틀랜드 쉽독",
+    "aliases": [
+      "셔틀랜드 쉽독"
+    ],
+    "sizeGroup": "medium",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "삽살개",
+    "nameKo": "삽살개",
+    "aliases": [
+      "삽살개",
+      "삽사리",
+      "Sapsali"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "웰시_코기_카디건",
+    "nameKo": "웰시 코기 카디건",
+    "aliases": [
+      "웰시 코기 카디건"
+    ],
+    "sizeGroup": "medium",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "사모예드",
+    "nameKo": "사모예드",
+    "aliases": [
+      "사모예드"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "베들링턴_테리어",
+    "nameKo": "베들링턴 테리어",
+    "aliases": [
+      "베들링턴 테리어"
+    ],
+    "sizeGroup": "medium",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "빠삐용_콘티넨탈_토이_스파니엘",
+    "nameKo": "빠삐용(콘티넨탈 토이 스파니엘)",
+    "aliases": [
+      "빠삐용(콘티넨탈 토이 스파니엘)"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "스탠다드_푸들",
+    "nameKo": "스탠다드 푸들",
+    "aliases": [
+      "스탠다드 푸들"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "잉글리쉬_코카_스파니엘",
+    "nameKo": "잉글리쉬 코카 스파니엘",
+    "aliases": [
+      "잉글리쉬 코카 스파니엘"
+    ],
+    "sizeGroup": "medium",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "도베르만",
+    "nameKo": "도베르만",
+    "aliases": [
+      "도베르만"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "캐벌리어_킹_찰스_스파니엘",
+    "nameKo": "캐벌리어 킹 찰스 스파니엘",
+    "aliases": [
+      "캐벌리어 킹 찰스 스파니엘"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "셰퍼드",
+    "nameKo": "셰퍼드",
+    "aliases": [
+      "셰퍼드"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "아메리칸불리",
+    "nameKo": "아메리칸불리",
+    "aliases": [
+      "아메리칸불리"
+    ],
+    "sizeGroup": "medium",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "차우차우",
+    "nameKo": "차우차우",
+    "aliases": [
+      "차우차우"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "잭_러셀_테리어",
+    "nameKo": "잭 러셀 테리어",
+    "aliases": [
+      "잭 러셀 테리어"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "포인터",
+    "nameKo": "포인터",
+    "aliases": [
+      "포인터"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "핏불테리어",
+    "nameKo": "핏불테리어",
+    "aliases": [
+      "핏불테리어"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "재패니즈_스피츠",
+    "nameKo": "재패니즈 스피츠",
+    "aliases": [
+      "재패니즈 스피츠"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "말라뮤트",
+    "nameKo": "말라뮤트",
+    "aliases": [
+      "말라뮤트"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "그레이_하운드",
+    "nameKo": "그레이 하운드",
+    "aliases": [
+      "그레이 하운드"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "올드_잉글리쉬_쉽독",
+    "nameKo": "올드 잉글리쉬 쉽독",
+    "aliases": [
+      "올드 잉글리쉬 쉽독"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "미디엄_푸들",
+    "nameKo": "미디엄 푸들",
+    "aliases": [
+      "미디엄 푸들"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "불독",
+    "nameKo": "불독",
+    "aliases": [
+      "불독"
+    ],
+    "sizeGroup": "medium",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "그레이트_피레니즈",
+    "nameKo": "그레이트 피레니즈",
+    "aliases": [
+      "그레이트 피레니즈"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "저먼_셰퍼드_독",
+    "nameKo": "저먼 셰퍼드 독",
+    "aliases": [
+      "저먼 셰퍼드 독"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "샤페이",
+    "nameKo": "샤페이",
+    "aliases": [
+      "샤페이"
+    ],
+    "sizeGroup": "medium",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "알라스칸_말라뮤트",
+    "nameKo": "알라스칸 말라뮤트",
+    "aliases": [
+      "알라스칸 말라뮤트"
+    ],
+    "sizeGroup": "giant",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "미니어쳐_닥스훈트",
+    "nameKo": "미니어쳐 닥스훈트",
+    "aliases": [
+      "미니어쳐 닥스훈트"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "카네_코르소",
+    "nameKo": "카네 코르소",
+    "aliases": [
+      "카네 코르소"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "동경견",
+    "nameKo": "동경견",
+    "aliases": [
+      "동경견",
+      "동경이",
+      "Donggyeongi"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "마리노이즈",
+    "nameKo": "마리노이즈",
+    "aliases": [
+      "마리노이즈"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "달마시안",
+    "nameKo": "달마시안",
+    "aliases": [
+      "달마시안"
+    ],
+    "sizeGroup": "medium",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "올드_잉글리쉬_불독",
+    "nameKo": "올드 잉글리쉬 불독",
+    "aliases": [
+      "올드 잉글리쉬 불독"
+    ],
+    "sizeGroup": "medium",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "로트와일러",
+    "nameKo": "로트와일러",
+    "aliases": [
+      "로트와일러"
+    ],
+    "sizeGroup": "giant",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "화이트테리어",
+    "nameKo": "화이트테리어",
+    "aliases": [
+      "화이트테리어"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "휘펫",
+    "nameKo": "휘펫",
+    "aliases": [
+      "휘펫"
+    ],
+    "sizeGroup": "medium",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "아키다",
+    "nameKo": "아키다",
+    "aliases": [
+      "아키다"
+    ],
+    "sizeGroup": "giant",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "도사",
+    "nameKo": "도사",
+    "aliases": [
+      "도사"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "브리타니_스파니엘",
+    "nameKo": "브리타니 스파니엘",
+    "aliases": [
+      "브리타니 스파니엘"
+    ],
+    "sizeGroup": "medium",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "재패니즈_친",
+    "nameKo": "재패니즈 친",
+    "aliases": [
+      "제페니즈칭",
+      "제페니스 친",
+      "재패니즈 친"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "잉글리쉬_세터",
+    "nameKo": "잉글리쉬 세터",
+    "aliases": [
+      "잉글리쉬 세터"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "웨스트_하이랜드_화이트_테리어",
+    "nameKo": "웨스트 하이랜드 화이트 테리어",
+    "aliases": [
+      "웨스트하이랜드화이트테리어"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "콜리",
+    "nameKo": "콜리",
+    "aliases": [
+      "콜리"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "불_테리어",
+    "nameKo": "불 테리어",
+    "aliases": [
+      "불 테리어"
+    ],
+    "sizeGroup": "medium",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "스코티쉬_테리어",
+    "nameKo": "스코티쉬 테리어",
+    "aliases": [
+      "스코티쉬 테리어"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "버니즈_마운틴_독",
+    "nameKo": "버니즈 마운틴 독",
+    "aliases": [
+      "버니즈 마운틴 독"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "아프간_하운드",
+    "nameKo": "아프간 하운드",
+    "aliases": [
+      "아프간 하운드"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "실키테리어",
+    "nameKo": "실키테리어",
+    "aliases": [
+      "실키테리어"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "잉글리쉬_포인터",
+    "nameKo": "잉글리쉬 포인터",
+    "aliases": [
+      "잉글리쉬 포인터"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "아메리칸_핏불_테리어",
+    "nameKo": "아메리칸 핏불 테리어",
+    "aliases": [
+      "아메리칸 핏불 테리어"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "라사_압소",
+    "nameKo": "라사 압소",
+    "aliases": [
+      "라사 압소"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "시베리안라이카",
+    "nameKo": "시베리안라이카",
+    "aliases": [
+      "시베리안라이카"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "페터데일테리어",
+    "nameKo": "페터데일테리어",
+    "aliases": [
+      "페터데일테리어"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "폭스테리어",
+    "nameKo": "폭스테리어",
+    "aliases": [
+      "폭스테리어"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "저먼_포인터",
+    "nameKo": "저먼 포인터",
+    "aliases": [
+      "저먼 포인터"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "그레이트_덴",
+    "nameKo": "그레이트 덴",
+    "aliases": [
+      "그레이트 덴"
+    ],
+    "sizeGroup": "giant",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "울프독",
+    "nameKo": "울프독",
+    "aliases": [
+      "울프독"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "제주개",
+    "nameKo": "제주개",
+    "aliases": [
+      "제주개",
+      "제주견",
+      "Jeju Dog"
+    ],
+    "sizeGroup": "medium",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "코카푸",
+    "nameKo": "코카푸",
+    "aliases": [
+      "코카 푸"
+    ],
+    "sizeGroup": "medium",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "오스트랄리안_셰퍼드_독",
+    "nameKo": "오스트랄리안 셰퍼드 독",
+    "aliases": [
+      "오스트랄리안 셰퍼드 독"
+    ],
+    "sizeGroup": "medium",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "마스티프",
+    "nameKo": "마스티프",
+    "aliases": [
+      "마스티프"
+    ],
+    "sizeGroup": "giant",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "래빗_닥스훈트",
+    "nameKo": "래빗 닥스훈트",
+    "aliases": [
+      "래빗 닥스훈트"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "도고_아르젠티노",
+    "nameKo": "도고 아르젠티노",
+    "aliases": [
+      "도고 아르젠티노"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "노리치_테리어",
+    "nameKo": "노리치 테리어",
+    "aliases": [
+      "노리치 테리어"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "티베탄_마스티프",
+    "nameKo": "티베탄 마스티프",
+    "aliases": [
+      "티베탄 마스티프"
+    ],
+    "sizeGroup": "giant",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "벨지안_셰퍼드_독",
+    "nameKo": "벨지안 셰퍼드 독",
+    "aliases": [
+      "벨지안 셰퍼드 독"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "보르조이",
+    "nameKo": "보르조이",
+    "aliases": [
+      "보르조이"
+    ],
+    "sizeGroup": "giant",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "벨지안_셰퍼드_독_그로넨달",
+    "nameKo": "벨지안 셰퍼드 독(그로넨달)",
+    "aliases": [
+      "벨지안 셰퍼드 독(그로넨달)"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "바센지",
+    "nameKo": "바센지",
+    "aliases": [
+      "바센지"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "복서",
+    "nameKo": "복서",
+    "aliases": [
+      "복서"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "오브차카",
+    "nameKo": "오브차카",
+    "aliases": [
+      "오브차카"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "폭스_테리어_와이어",
+    "nameKo": "폭스 테리어(와이어)",
+    "aliases": [
+      "폭스 테리어(와이어)"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "아메리칸_아키다",
+    "nameKo": "아메리칸 아키다",
+    "aliases": [
+      "아메리칸 아키다"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "코카시안_오브차카_코카시안_셰퍼드_독",
+    "nameKo": "코카시안 오브차카(코카시안 셰퍼드 독)",
+    "aliases": [
+      "코카시안 오브차카(코카시안 셰퍼드 독)"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "바셋_하운드",
+    "nameKo": "바셋 하운드",
+    "aliases": [
+      "바셋 하운드"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "미텔_스피츠",
+    "nameKo": "미텔 스피츠",
+    "aliases": [
+      "미텔 스피츠"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "벨기에_쉽독",
+    "nameKo": "벨기에 쉽독",
+    "aliases": [
+      "벨기에 쉽독"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "아이리쉬_세터",
+    "nameKo": "아이리쉬 세터",
+    "aliases": [
+      "아이리쉬 세터"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "잉글리쉬_스프링거_스파니엘",
+    "nameKo": "잉글리쉬 스프링거 스파니엘",
+    "aliases": [
+      "잉글리쉬 스프링거 스파니엘"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "아메리칸_불독",
+    "nameKo": "아메리칸 불독",
+    "aliases": [
+      "아메리칸 불독"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "세인트_버나드",
+    "nameKo": "세인트 버나드",
+    "aliases": [
+      "세인트 버나드"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "차이니즈_크레스티드_독",
+    "nameKo": "차이니즈 크레스티드 독",
+    "aliases": [
+      "차이니즈 크레스티드 독"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "레이크랜드_테리어",
+    "nameKo": "레이크랜드 테리어",
+    "aliases": [
+      "레이크랜드 테리어"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "케리_블루_테리어",
+    "nameKo": "케리 블루 테리어",
+    "aliases": [
+      "케리 블루 테리어"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "플랫_코티드_리트리버",
+    "nameKo": "플랫 코티드 리트리버",
+    "aliases": [
+      "플랫 코티드 리트리버"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "아메리칸_에스키모",
+    "nameKo": "아메리칸 에스키모",
+    "aliases": [
+      "아메리칸 에스키모"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "웰시_테리어",
+    "nameKo": "웰시 테리어",
+    "aliases": [
+      "웰시 테리어"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "와이마라너",
+    "nameKo": "와이마라너",
+    "aliases": [
+      "와이마라너"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "웨스트_시베리언_라이카",
+    "nameKo": "웨스트 시베리언 라이카",
+    "aliases": [
+      "웨스트 시베리언 라이카"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "카이훗",
+    "nameKo": "카이훗",
+    "aliases": [
+      "카이훗"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "화이트리트리버",
+    "nameKo": "화이트리트리버",
+    "aliases": [
+      "화이트리트리버"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "파슨_러셀_테리어",
+    "nameKo": "파슨 러셀 테리어",
+    "aliases": [
+      "파슨 러셀 테리어"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "시코쿠",
+    "nameKo": "시코쿠",
+    "aliases": [
+      "시코쿠"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "하바니즈",
+    "nameKo": "하바니즈",
+    "aliases": [
+      "허배너스",
+      "하바니즈"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "프렌치_브리타니",
+    "nameKo": "프렌치 브리타니",
+    "aliases": [
+      "프렌치 브리타니"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "자이언트_슈나우져",
+    "nameKo": "자이언트 슈나우져",
+    "aliases": [
+      "자이언트 슈나우져"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "프레사까나리오",
+    "nameKo": "프레사까나리오",
+    "aliases": [
+      "프레사까나리오"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "미니어쳐_불_테리어",
+    "nameKo": "미니어쳐 불 테리어",
+    "aliases": [
+      "미니어쳐 불 테리어"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "저먼_와이어헤어드_포인터",
+    "nameKo": "저먼 와이어헤어드 포인터",
+    "aliases": [
+      "저먼 와이어헤어드 포인터"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "아이리쉬_소프트_코티드_휘튼_테리어",
+    "nameKo": "아이리쉬 소프트 코티드 휘튼 테리어",
+    "aliases": [
+      "아이리쉬 소프트 코티드 휘튼 테리어"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "비어디드_콜리",
+    "nameKo": "비어디드 콜리",
+    "aliases": [
+      "비어디드 콜리"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "케니스펜더",
+    "nameKo": "케니스펜더",
+    "aliases": [
+      "케니스펜더"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "풀리",
+    "nameKo": "풀리",
+    "aliases": [
+      "풀리"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "뉴펀들랜드",
+    "nameKo": "뉴펀들랜드",
+    "aliases": [
+      "뉴펀들랜드"
+    ],
+    "sizeGroup": "giant",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "블랙_테리어",
+    "nameKo": "블랙 테리어",
+    "aliases": [
+      "블랙 테리어"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "벨지안_셰퍼드_독_마리노이즈",
+    "nameKo": "벨지안 셰퍼드 독(마리노이즈)",
+    "aliases": [
+      "벨지안 셰퍼드 독(마리노이즈)"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "벨기에_테뷰런",
+    "nameKo": "벨기에 테뷰런",
+    "aliases": [
+      "벨기에 테뷰런"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "코리아_트라이_하운드",
+    "nameKo": "코리아 트라이 하운드",
+    "aliases": [
+      "코리아 트라이 하운드"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "살루키",
+    "nameKo": "살루키",
+    "aliases": [
+      "살루키"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "비즐라",
+    "nameKo": "비즐라",
+    "aliases": [
+      "비즐라"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "피레니안_마운틴_독",
+    "nameKo": "피레니안 마운틴 독",
+    "aliases": [
+      "피레니안 마운틴 독"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "센트럴_아시안_오브차카",
+    "nameKo": "센트럴 아시안 오브차카",
+    "aliases": [
+      "센트럴 아시안 오브차카"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "아이리쉬_울프_하운드",
+    "nameKo": "아이리쉬 울프 하운드",
+    "aliases": [
+      "아이리쉬 울프 하운드"
+    ],
+    "sizeGroup": "giant",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "아메리칸_스태퍼드셔_테리어",
+    "nameKo": "아메리칸 스태퍼드셔 테리어",
+    "aliases": [
+      "아메리칸 스태퍼드셔 테리어"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "노르포크_테리어",
+    "nameKo": "노르포크 테리어",
+    "aliases": [
+      "노르포크 테리어"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "에어델_테리어",
+    "nameKo": "에어델 테리어",
+    "aliases": [
+      "에어델 테리어"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "맨체스터테리어",
+    "nameKo": "맨체스터테리어",
+    "aliases": [
+      "맨체스터테리어"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "오스트랄리안_캐틀_독",
+    "nameKo": "오스트랄리안 캐틀 독",
+    "aliases": [
+      "오스트랄리안 캐틀 독"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "도고_까니리오",
+    "nameKo": "도고 까니리오",
+    "aliases": [
+      "도고 까니리오"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "카레리안_베어독",
+    "nameKo": "카레리안 베어독",
+    "aliases": [
+      "카레리안 베어독"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "스태퍼드셔_불_테리어",
+    "nameKo": "스태퍼드셔 불 테리어",
+    "aliases": [
+      "스태퍼드셔 불 테리어"
+    ],
+    "sizeGroup": "medium",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "파라오_하운드",
+    "nameKo": "파라오 하운드",
+    "aliases": [
+      "파라오 하운드"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "체코슬로바이칸_울프독",
+    "nameKo": "체코슬로바이칸 울프독",
+    "aliases": [
+      "체코슬로바이칸 울프독"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "저먼_헌팅_테리어",
+    "nameKo": "저먼 헌팅 테리어",
+    "aliases": [
+      "저먼 헌팅 테리어"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "아나톨리안_셰퍼드",
+    "nameKo": "아나톨리안 셰퍼드",
+    "aliases": [
+      "아나톨리안 셰퍼드"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "랫_테리어",
+    "nameKo": "랫 테리어",
+    "aliases": [
+      "랫 테리어"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "케언_테리어",
+    "nameKo": "케언 테리어",
+    "aliases": [
+      "케언 테리어"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "필라_브라질레이로",
+    "nameKo": "필라 브라질레이로",
+    "aliases": [
+      "필라 브라질레이로"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "플롯하운드",
+    "nameKo": "플롯하운드",
+    "aliases": [
+      "플롯하운드"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "로디지안_리즈백",
+    "nameKo": "로디지안 리즈백",
+    "aliases": [
+      "로디지안 리즈백"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "토이_맨체스터_테리어",
+    "nameKo": "토이 맨체스터 테리어",
+    "aliases": [
+      "토이 맨체스터 테리어"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "클라인스피츠",
+    "nameKo": "클라인스피츠",
+    "aliases": [
+      "클라인스피츠"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "오스트레일리안_켈피",
+    "nameKo": "오스트레일리안 켈피",
+    "aliases": [
+      "오스트레일리안 켈피"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "키슈",
+    "nameKo": "키슈",
+    "aliases": [
+      "키슈"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "실리햄_테리어",
+    "nameKo": "실리햄 테리어",
+    "aliases": [
+      "실리햄 테리어"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "노퍽_테리어",
+    "nameKo": "노퍽 테리어",
+    "aliases": [
+      "노퍽 테리어"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "볼로네즈",
+    "nameKo": "볼로네즈",
+    "aliases": [
+      "볼로네즈"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "브뤼셀그리펀",
+    "nameKo": "브뤼셀그리펀",
+    "aliases": [
+      "브뤼셀그리펀"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "러프콜리",
+    "nameKo": "러프콜리",
+    "aliases": [
+      "러프콜리"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "이스트_시베리언_라이카",
+    "nameKo": "이스트 시베리언 라이카",
+    "aliases": [
+      "이스트 시베리언 라이카"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "팔렌_콘티넨탈_토이_스파니엘",
+    "nameKo": "팔렌(콘티넨탈 토이 스파니엘)",
+    "aliases": [
+      "팔렌(콘티넨탈 토이 스파니엘)"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "아이리쉬_레드_앤_화이트_세터",
+    "nameKo": "아이리쉬 레드 앤 화이트 세터",
+    "aliases": [
+      "아이리쉬 레드 앤 화이트 세터"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "코리안_마스티프",
+    "nameKo": "코리안 마스티프",
+    "aliases": [
+      "코리안 마스티프"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "스코티시_디어하운드",
+    "nameKo": "스코티시 디어하운드",
+    "aliases": [
+      "스코티시 디어하운드"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "부비에_데_플랑드르",
+    "nameKo": "부비에 데 플랑드르",
+    "aliases": [
+      "부비에 데 플랑드르"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "캉갈_셰퍼드_독",
+    "nameKo": "캉갈 셰퍼드 독",
+    "aliases": [
+      "캉갈 셰퍼드 독"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "화이트_스위스_세퍼드",
+    "nameKo": "화이트 스위스 세퍼드",
+    "aliases": [
+      "화이트 스위스 세퍼드"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "라고토_로마그놀로",
+    "nameKo": "라고토 로마그놀로",
+    "aliases": [
+      "라고토 로마그놀로"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "네오폴리탄_마스티프",
+    "nameKo": "네오폴리탄 마스티프",
+    "aliases": [
+      "네오폴리탄 마스티프"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "댄디_딘몬트_테리어",
+    "nameKo": "댄디 딘몬트 테리어",
+    "aliases": [
+      "댄디 딘몬트 테리어"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "러시안_토이",
+    "nameKo": "러시안 토이",
+    "aliases": [
+      "러시안 토이"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "키스_훈드",
+    "nameKo": "키스 훈드",
+    "aliases": [
+      "키스 훈드"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "저먼_쇼트헤어드_포인터",
+    "nameKo": "저먼 쇼트헤어드 포인터",
+    "aliases": [
+      "저먼 쇼트헤어드 포인터"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "웰시_스프링어_스패니얼",
+    "nameKo": "웰시 스프링어 스패니얼",
+    "aliases": [
+      "웰시 스프링어 스패니얼"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "고든_세터",
+    "nameKo": "고든 세터",
+    "aliases": [
+      "고든 세터"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "케리블루_테리어",
+    "nameKo": "케리블루 테리어",
+    "aliases": [
+      "케리블루 테리어"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "시잉프랑세즈",
+    "nameKo": "시잉프랑세즈",
+    "aliases": [
+      "시잉프랑세즈"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "케나디언_에스키모_독",
+    "nameKo": "케나디언 에스키모 독",
+    "aliases": [
+      "케나디언 에스키모 독"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "타이_리지벡_독",
+    "nameKo": "타이 리지벡 독",
+    "aliases": [
+      "타이 리지벡 독"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "포르투갈_워터_도그",
+    "nameKo": "포르투갈 워터 도그",
+    "aliases": [
+      "포르투갈 워터 도그"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "스무스콜리",
+    "nameKo": "스무스콜리",
+    "aliases": [
+      "스무스콜리"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "프티_바세_그리퐁_방댕",
+    "nameKo": "프티 바세 그리퐁 방댕",
+    "aliases": [
+      "프티 바세 그리퐁 방댕"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "아펜핀셔",
+    "nameKo": "아펜핀셔",
+    "aliases": [
+      "아펜핀셔"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "폭스_테리어_스무스",
+    "nameKo": "폭스 테리어(스무스)",
+    "aliases": [
+      "폭스 테리어(스무스)"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "오스트레일리안_케틀독",
+    "nameKo": "오스트레일리안 케틀독",
+    "aliases": [
+      "오스트레일리안 케틀독"
+    ],
+    "sizeGroup": null,
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "말티푸",
+    "nameKo": "말티푸",
+    "aliases": [
+      "말티푸"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "폼피츠",
+    "nameKo": "폼피츠",
+    "aliases": [
+      "폼피츠"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "푸숑",
+    "nameKo": "푸숑",
+    "aliases": [
+      "푸숑"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "포메푸",
+    "nameKo": "포메푸",
+    "aliases": [
+      "포메푸"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "말티숑",
+    "nameKo": "말티숑",
+    "aliases": [
+      "말티숑"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "시츄푸",
+    "nameKo": "시츄푸",
+    "aliases": [
+      "시츄푸"
+    ],
+    "sizeGroup": "small",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  },
+  {
+    "id": "골든두들",
+    "nameKo": "골든두들",
+    "aliases": [
+      "골든두들"
+    ],
+    "sizeGroup": "large",
+    "visible": true,
+    "requiresAdultWeightEstimate": false
+  }
+]

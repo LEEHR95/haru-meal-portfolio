@@ -1,0 +1,1867 @@
+@import './tokens.css';
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  color: var(--ink-1);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  color: inherit;
+}
+
+input,
+textarea {
+  font-family: inherit;
+  color: inherit;
+  outline: none;
+}
+
+.app-shell {
+  width: 100%;
+  max-width: var(--app-max-width);
+  height: 100%;
+  min-height: 100dvh;
+  margin: 0 auto;
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.app-main {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-shell--standalone {
+  max-width: none;
+}
+
+.app-main--standalone {
+  overflow: hidden;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-spinner {
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes onboarding-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.onboarding-card-1 {
+  animation: onboarding-in 0.3s ease both;
+}
+
+.onboarding-card-2 {
+  animation: onboarding-in 0.3s ease 0.1s both;
+}
+
+/* ── profile hydrate loading ── */
+@keyframes hydrateRingSpin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+@keyframes hydrateFadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-6px); }
+}
+
+.profile-hydrate-loading {
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg);
+  opacity: 0;
+  animation: hydrateFadeIn 0.2s ease 0.1s forwards;
+}
+
+.hydrate-spinner-stage {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hydrate-text-ring {
+  position: absolute;
+  inset: 0;
+  animation: hydrateRingSpin 12s linear infinite;
+}
+
+.hydrate-logo-circle {
+  position: relative;
+  width: 132px;
+  height: 132px;
+  background: rgba(255, 255, 255, 0.94);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  overflow: hidden;
+  animation: float 2.5s ease-in-out infinite;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+}
+
+.hydrate-logo-img {
+  width: 112px;
+  height: 112px;
+  object-fit: contain;
+}
+
+.hydrate-text {
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--ink-3);
+  letter-spacing: -0.2px;
+}
+
+.app-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.app-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.h-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.h-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-x: auto;
+}
+
+.t-headline,
+.t-headline-l,
+.t-headline-s,
+.t-section-title,
+.t-subtitle,
+.font-heading,
+.chat-header__title,
+.page-placeholder h1 {
+  font-family: var(--font-title);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.recipe-card__title {
+  font-family: 'Pretendard', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.35;
+}
+
+.t-headline {
+  font-size: var(--text-headline);
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--ink-1);
+  letter-spacing: -0.01em;
+}
+
+.t-headline-l {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--ink-1);
+  letter-spacing: -0.01em;
+}
+
+.t-headline-s {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--ink-1);
+  letter-spacing: -0.01em;
+}
+
+.t-section-title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--ink-1);
+}
+
+.t-subtitle {
+  font-size: var(--text-subtitle);
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--ink-1);
+}
+
+.t-subtitle-s {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--ink-1);
+}
+
+.t-body {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--ink-2);
+}
+
+.t-body-s {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--ink-2);
+}
+
+.t-caption {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--ink-3);
+}
+
+.t-caption-xs {
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--ink-3);
+}
+
+.t-kpi {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--primary);
+  letter-spacing: -0.02em;
+}
+
+@keyframes sheetUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.22s ease-out both;
+}
+
+@keyframes recipeCardEnter {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shimmerSweep {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes chipEnter {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.chip-enter {
+  animation: chipEnter 0.2s ease-out both;
+}
+
+.related-ingredient-row {
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 6px 8px;
+  margin: 0 -8px;
+  transition: transform 0.1s ease, background 0.1s ease;
+}
+
+.related-ingredient-row:hover {
+  background: var(--surface-2);
+}
+
+.related-ingredient-row:active {
+  transform: scale(0.98);
+  background: var(--surface-2);
+}
+
+.related-ingredient-row--disabled {
+  cursor: default;
+  opacity: 0.55;
+}
+
+.related-ingredient-row--disabled:hover,
+.related-ingredient-row--disabled:active {
+  background: transparent;
+  transform: none;
+}
+
+.press {
+  transition: transform 0.12s ease, background-color 0.15s ease, opacity 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.press:active {
+  transform: scale(0.97);
+  opacity: 0.85;
+}
+
+.recipe-card {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    filter 0.2s ease,
+    opacity 0.2s ease;
+  will-change: transform, box-shadow, filter;
+}
+
+.recipe-card-list--intro .recipe-card {
+  animation: recipeCardEnter 0.42s ease-out both;
+}
+
+.recipe-card-list--intro .recipe-card:nth-child(1) { animation-delay: 0.02s; }
+.recipe-card-list--intro .recipe-card:nth-child(2) { animation-delay: 0.06s; }
+.recipe-card-list--intro .recipe-card:nth-child(3) { animation-delay: 0.1s; }
+.recipe-card-list--intro .recipe-card:nth-child(4) { animation-delay: 0.14s; }
+.recipe-card-list--intro .recipe-card:nth-child(5) { animation-delay: 0.18s; }
+.recipe-card-list--intro .recipe-card:nth-child(6) { animation-delay: 0.22s; }
+.recipe-card-list--intro .recipe-card:nth-child(7) { animation-delay: 0.26s; }
+.recipe-card-list--intro .recipe-card:nth-child(8) { animation-delay: 0.3s; }
+
+@media (hover: hover) and (pointer: fine) {
+  .recipe-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04) !important;
+  }
+}
+
+.recipe-card:active {
+  transform: scale(0.98);
+  filter: brightness(0.985);
+  opacity: 1;
+}
+
+.recipe-skeleton-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.recipe-card-skeleton {
+  text-align: left;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  gap: 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 12px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.recipe-card-skeleton__thumb {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+
+.recipe-card-skeleton__body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  padding-top: 2px;
+}
+
+.recipe-card-skeleton__title {
+  width: 62%;
+  height: 18px;
+  border-radius: 8px;
+}
+
+.recipe-card-skeleton__meta-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.recipe-card-skeleton__badge {
+  width: 62px;
+  height: 18px;
+  border-radius: 999px;
+}
+
+.recipe-card-skeleton__tag {
+  width: 48px;
+  height: 14px;
+  border-radius: 999px;
+}
+
+.recipe-card-skeleton__line {
+  width: 88%;
+  height: 12px;
+  border-radius: 999px;
+}
+
+.recipe-card-skeleton__line--short {
+  width: 68%;
+}
+
+.shimmer-block {
+  position: relative;
+  overflow: hidden;
+  background: #f5f5f5;
+}
+
+.shimmer-block::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(245, 245, 245, 0) 0%, rgba(255, 255, 255, 0.8) 50%, rgba(245, 245, 245, 0) 100%);
+  animation: shimmerSweep 1.35s ease-in-out infinite;
+}
+
+.page-placeholder {
+  flex: 1;
+  padding: var(--section-gap) var(--page-pad-x);
+}
+
+.page-placeholder h1 {
+  margin: 0 0 var(--space-2);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--ink-1);
+}
+
+.page-placeholder p {
+  margin: 0;
+  font-size: 14px;
+  color: var(--ink-2);
+  line-height: 1.5;
+}
+
+.legal-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.legal-page__body {
+  flex: 1;
+  padding: var(--space-3) var(--page-pad-x);
+}
+
+.legal-page__body h1 {
+  margin: 0 0 var(--space-3);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--ink-1);
+}
+
+.legal-page__body h2 {
+  margin: var(--space-4) 0 var(--space-2);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--ink-1);
+}
+
+.legal-page__body h2:first-child {
+  margin-top: 0;
+}
+
+.legal-page__body p,
+.legal-page__body li {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--ink-2);
+}
+
+.legal-page__body ul {
+  margin: 0 0 var(--space-2);
+  padding-left: var(--space-4);
+}
+
+@media (min-width: 1024px) {
+
+  /* ── 공통 본문 폭 제한 (헤더·버튼과 분리) ──────────────────── */
+
+  /* 약관/개인정보 본문 */
+  .legal-page__body {
+    width: 100%;
+    max-width: 984px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* 시스템 설정 콘텐츠 div */
+  .settings-content-body {
+    width: 100%;
+    max-width: 984px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* 문의하기 form */
+  .contact-form-body {
+    width: 100%;
+    max-width: 984px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* ── 헤더 정렬: 본문과 동일한 720px 기준선, 좌측 정렬 ──────── */
+
+  /* Settings/Contact 헤더: 720px 기준 좌측 정렬, 좌우 패딩 제거 */
+  .settings-content-body.page-title-header,
+  .contact-form-body.page-title-header {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  /* 약관/개인정보 TopBar: 720px 기준, space-between → flex-start */
+  .pc-narrow-header {
+    width: 100%;
+    max-width: 984px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: flex-start !important;
+    gap: 8px;
+    /* TopBar 인라인 padding: '0 8px' 유지 (패딩 오버라이드 제거) */
+  }
+
+  /* TopBar 우측 40px 스페이서 숨김 (flex-start에서 불필요) */
+  .pc-narrow-header > div:last-child {
+    display: none !important;
+  }
+
+  /* TopBar 제목을 페이지 h1 스타일로 */
+  .pc-narrow-header > div:nth-child(2) {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    color: var(--ink-1) !important;
+  }
+}
+
+/* ─── App navigation (mobile bottom / desktop top) ─────────── */
+
+.app-topbar {
+  display: none;
+}
+
+.app-bottom-nav {
+  height: var(--nav-height);
+  background: var(--surface);
+  border-top: 1px solid var(--divider);
+  padding: 0 var(--page-pad-x);
+  display: flex;
+  align-items: stretch;
+  flex-shrink: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+/* 모바일: NavBar에 가려지지 않도록 스크롤 영역 하단 여백 */
+.app-shell--has-bottom-nav .app-main {
+  padding-bottom: var(--nav-height);
+}
+
+.app-bottom-nav__item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+
+.app-bottom-nav__label {
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.app-bottom-nav__item[aria-current='page'] .app-bottom-nav__label {
+  font-weight: 600;
+}
+
+/* 768px+: TopBar 표시, BottomNav 숨김 (tablet / narrow-PC 기준) */
+@media (min-width: 768px) {
+  :root {
+    --fab-bottom: var(--fab-offset);
+  }
+
+  .app-topbar {
+    display: flex;
+    align-items: center;
+    min-height: var(--nav-height);
+    padding: 0 var(--page-pad-x);
+    margin-bottom: 0;
+    background: var(--bg);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    flex-shrink: 0;
+  }
+
+  /* 768-1023px: inner 래퍼가 brand/nav 좌우 정렬 담당 */
+  .app-topbar__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+  }
+
+  .app-topbar__brand {
+    display: flex;
+    align-items: center;
+    font-family: 'Cafe24 Decobox', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+    color: var(--primary);
+    letter-spacing: -0.01em;
+  }
+
+  .app-topbar__nav {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .app-topbar__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    gap: 3px;
+    min-width: 44px;
+    padding: 0;
+  }
+
+  .app-topbar__label {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1;
+  }
+
+  .app-topbar__item[aria-current='page'] .app-topbar__label {
+    font-weight: 600;
+  }
+
+  .app-bottom-nav {
+    display: none;
+    position: static;
+  }
+
+  .app-shell--has-bottom-nav .app-main {
+    padding-bottom: 0;
+  }
+
+  .app-shell > .app-topbar + .app-main .page-title-header {
+    padding-top: 0;
+  }
+}
+
+/* ─── 레시피 상세 히어로 이미지 ────────────────────────────── */
+.detail-hero-img { overflow: hidden; }
+
+.detail-hero-img img {
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+/* ─── 재료 헤더 (PC only: 뒤로가기 + 준비 재료) ─────────────── */
+/* 모바일: 숨김 */
+.detail-ingr-pc-header { display: none; }
+/* 모바일: 재료 타이틀 표시 */
+.detail-ingr-mobile-title { display: block; }
+
+/* ─── 레시피 상세 2단 Grid ───────────────────────────────────
+   기본(모바일 + 태블릿 세로): 단일 컬럼
+   조건 A: min-width 900px AND orientation landscape (태블릿 가로)
+   조건 B: min-width 1200px (PC — 항상 landscape)
+   → A OR B 일 때 2컬럼 Grid 적용
+   DOM 순서 = 모바일 기준: img → meta → ingr → steps
+   CSS Grid가 ingr 를 우측 컬럼으로 재배치
+  ─────────────────────────────────────────────────────────── */
+@media (min-width: 900px) and (orientation: landscape),
+       (min-width: 1200px) {
+
+  /* Grid 컨테이너 */
+  .detail-grid-wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 28px 20px 48px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 360px);
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "img   ingr"
+      "meta  ingr"
+      "steps ingr";
+    column-gap: 24px;
+  }
+
+  .detail-area-img   { grid-area: img; }
+  .detail-area-meta  { grid-area: meta; padding-top: 32px; }
+  .detail-area-steps { grid-area: steps; }
+  .detail-area-ingr  { grid-area: ingr; }
+
+  /* 히어로 이미지 비율 */
+  .detail-area-img .detail-hero-img {
+    height: auto !important;
+    aspect-ratio: 4 / 3;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+
+  /* 히어로 내 뒤로가기 버튼 숨김 */
+  .detail-hero-btn--back { display: none !important; }
+
+  /* 북마크 버튼 위치 유지 */
+  .detail-hero-btn--bookmark {
+    display: flex !important;
+    top: 16px !important;
+    right: 16px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.14);
+  }
+
+  /* 모든 섹션 좌우 패딩 0 (wrapper의 padding이 제공) */
+  .detail-area-meta section,
+  .detail-area-ingr section,
+  .detail-area-steps section {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  /* 재료 헤더 (← 뒤로가기 + 준비 재료 타이틀) */
+  .detail-ingr-pc-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 20px 0 12px;
+  }
+
+  /* 재료 타이틀 숨김 (헤더가 대체) */
+  .detail-ingr-mobile-title { display: none; }
+}
+
+/* ─── 레시피 상세 1024px+: 급여 반응 버튼 4열 ──────────────── */
+@media (min-width: 1024px) {
+
+  /* 급여 반응 버튼 4열 고정 */
+  .reaction-btn-grid {
+    grid-template-columns: repeat(4, 1fr) !important;
+  }
+}
+
+/* ─── 레시피 상세 1200px+: 우측 준비 재료 sticky + 간격 확장 ── */
+/* 768–1199px(iPad 포함)은 sticky 없이 2컬럼 자연 스크롤 유지    */
+@media (min-width: 1200px) {
+
+  /* 우측 스티키 재료 컬럼 */
+  .detail-area-ingr {
+    position: sticky;
+    top: 40px;
+    align-self: start;
+    max-height: calc(100vh - 80px);
+    overflow-y: auto;
+  }
+
+  /* 재료 컬럼 커스텀 스크롤바 */
+  .detail-area-ingr::-webkit-scrollbar { width: 5px; }
+  .detail-area-ingr::-webkit-scrollbar-track { background: transparent; }
+  .detail-area-ingr::-webkit-scrollbar-thumb { background: #E0E0E0; border-radius: 4px; }
+  .detail-area-ingr::-webkit-scrollbar-thumb:hover { background: #BDBDBD; }
+
+  /* 컬럼 간격 확장 및 그리드 폭 확대 */
+  .detail-grid-wrapper {
+    column-gap: 40px;
+    max-width: 1400px;
+  }
+}
+
+/* ─── ProfileEditPage 요약 카드 아바타 — PC 확대 ───────────── */
+@media (min-width: 1024px) {
+  .profile-summary-avatar {
+    width: 96px !important;
+    height: 96px !important;
+    font-size: 32px !important;
+  }
+  .profile-summary-avatar-inner {
+    width: 80px !important;
+    height: 80px !important;
+  }
+  .profile-summary-avatar-inner img {
+    width: 80px !important;
+    height: 80px !important;
+  }
+}
+
+/* ─── 레시피 등록 PC 레이아웃 ──────────────────────────────── */
+@media (min-width: 1024px) {
+  .register-form-body {
+    max-width: 768px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 40px 24px !important;  /* inline padding: 20 override */
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .register-cta-wrapper {
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .register-cta-wrapper button {
+    width: 100%;
+  }
+}
+
+/* ─── PC 공통 레이아웃 컨테이너 ────────────────────────────── */
+/* max-width: 1024px 중앙 정렬. 모든 페이지 콘텐츠 정렬 기준점. */
+@media (min-width: 1024px) {
+  .page-container {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    /* height·flex·background는 기존 inline style 유지 */
+  }
+
+  /* page-container 안의 page-inset-x 좌우 패딩 무효화
+     (컨테이너가 20px 여백을 담당) */
+  .page-container .page-inset-x {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* PC: 탑바 높이·정렬·로고·아이콘 */
+@media (min-width: 1024px) {
+  .app-topbar {
+    min-height: 64px;
+    align-items: center;
+    margin-bottom: 0;
+    padding: 0;
+    border-bottom: none;
+    overflow: visible;
+  }
+
+  /* 구분선: page-container(1024px)와 동일한 너비로 중앙 정렬, 끝 둥글게 */
+  .app-topbar::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    /* calc: topbar 중앙에서 512px(=1024px/2) 떨어진 지점 */
+    left:  max(0px, calc(50% - 512px));
+    right: max(0px, calc(50% - 512px));
+    height: 1px;
+    background: #f0eadd;
+    border-radius: 50px;
+  }
+
+  /* GNB 내부 래퍼: page-container와 동일한 기준(1024px, 20px padding)
+     → logo · 레시피 · 냉장고 타이틀 좌측 시작선 완벽 일치 */
+  .app-topbar__inner {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  /* 요구사항 3: 구분선 아래 본문 상단 3px 여백 추가 */
+  .app-shell > .app-topbar + .app-main .page-title-header {
+    padding-top: calc(var(--space-2) + 3px);
+  }
+
+  /* 마이페이지 타이틀 — 기존 추가 여백 유지 */
+  .app-shell > .app-topbar + .app-main .page-title-header--profile {
+    padding-top: calc(var(--space-2) + 10px + 3px);
+  }
+
+  /* 슬림화: 로고·아이콘 ~15% 축소 */
+  .app-topbar__brand {
+    font-size: 29px;   /* 34px × 0.85 */
+    font-weight: 700;
+    align-self: center;
+  }
+
+  .app-topbar__nav {
+    gap: 20px;         /* 24px → 20px */
+  }
+
+  .app-topbar__item {
+    min-width: 52px;
+    gap: 5px;
+  }
+
+  /* 슬림화: 아이콘·라벨 ~15% 축소 */
+  .app-topbar__item svg {
+    width: 27px;   /* 32px × 0.85 */
+    height: 27px;
+  }
+
+  .app-topbar__label {
+    font-size: 12px;   /* 14px × 0.85 */
+  }
+}
+
+/* ─── 가로형 리스트 카드 (layout="h") ─────────────────────── */
+
+/* 요구사항 1: 공통 — 16px 라운드 + 클리핑 (CSS로 보강, inline과 협력) */
+.recipe-card--h {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+/* 요구사항 3: PC 스케일업 — 카드·이미지·폰트 전체 확대 */
+@media (min-width: 1024px) {
+  .recipe-card--h {
+    padding: 16px !important;
+    gap: 16px !important;
+    min-height: 100px;
+  }
+
+  .recipe-card--h__thumb {
+    width: 88px !important;
+    height: 88px !important;
+    border-radius: 12px !important;
+  }
+
+  .recipe-card--h__body {
+    gap: 7px !important;
+  }
+
+  .recipe-card--h__title {
+    font-size: 17px !important;
+    white-space: normal !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+    text-overflow: unset !important;
+  }
+
+  .recipe-card--h__ingr {
+    font-size: 13px !important;
+  }
+}
+
+/* 레시피 피드 — 간식 타입 필터 탭 */
+.feed-filter-tabs {
+  display: flex;
+  gap: 2px;
+  border: none;
+  box-shadow: none;
+}
+
+.feed-filter-tabs button[role='tab'] {
+  border: none;
+  box-shadow: none;
+}
+
+/* ─── Page layout utilities ─────────────────────────────────── */
+
+.page-title-header {
+  padding-top: 27px; /* 모바일 기준값 — 인라인 override 제거 후 CSS로 일원화 */
+  padding-bottom: var(--space-2);
+  flex-shrink: 0;
+}
+
+.page-title-header--row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.app-main header {
+  padding-left: var(--page-pad-x);
+  padding-right: var(--page-pad-x);
+}
+
+.page-inset-x {
+  padding-left: var(--page-pad-x);
+  padding-right: var(--page-pad-x);
+}
+
+.chat-page {
+  height: 100vh;
+  height: 100svh;
+  height: 100dvh;
+  min-height: 100vh;
+  min-height: 100svh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  overflow: hidden;
+}
+
+.chat-shell {
+  width: 100%;
+  max-width: 760px;
+  min-height: 100%;
+  height: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: var(--bg);
+  overflow: hidden;
+}
+
+.chat-header {
+  flex: 0 0 auto;
+  height: calc(56px + env(safe-area-inset-top, 0px));
+  padding: env(safe-area-inset-top, 0px) var(--page-pad-x) 0;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  border-bottom: 1px solid var(--divider);
+  background: var(--bg);
+  z-index: 20;
+}
+
+.chat-header__back,
+.chat-header__spacer {
+  width: 36px;
+  height: 36px;
+  flex: 0 0 36px;
+}
+
+.chat-header__back {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  color: var(--ink-1);
+}
+
+.chat-header__title {
+  flex: 1;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--ink-1);
+  text-align: center;
+}
+
+.chat-scroll {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 16px;
+  padding-bottom: calc(max(var(--chat-composer-height, 120px), 132px) + 24px + env(safe-area-inset-bottom, 0px));
+  scroll-padding-bottom: calc(max(var(--chat-composer-height, 120px), 132px) + 24px + env(safe-area-inset-bottom, 0px));
+}
+
+.chat-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 100%;
+}
+
+.chat-composer-wrap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-height: 112px;
+  max-height: calc(100% - 72px - env(safe-area-inset-top, 0px));
+  padding: 12px var(--page-pad-x);
+  padding-bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+  background: var(--bg);
+  border-top: 1px solid var(--divider);
+  z-index: 30;
+  overflow-y: auto;
+}
+
+.chat-composer-shell {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.chat-composer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px 16px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+}
+
+.chat-composer-note {
+  margin-top: 8px;
+  font-size: 10px;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--ink-4);
+}
+
+.page-section-stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--section-gap);
+}
+
+/* ─── 공통 페이지 제목 — 보관함·레시피·마이페이지 통일 ──────── */
+.page-h1 {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--ink-1);
+  line-height: 1.2;
+}
+
+@media (min-width: 1024px) {
+  .page-h1 {
+    font-size: 30px;
+    font-weight: 800;
+  }
+}
+
+/* ─── 보관함 탭 버튼 ────────────────────────────────────────── */
+.archive-tab-btn {
+  font-size: 13px;
+}
+
+@media (min-width: 1024px) {
+  .archive-tab-btn {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+/* 재료 결과 카드 — 홈 냉장고 파먹기 */
+.ingredient-result-grid,
+.home-recipe-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--card-gap);
+}
+
+/* 태블릿: 2열 */
+@media (min-width: 768px) {
+  .ingredient-result-grid,
+  .home-recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--card-gap);
+  }
+
+  .ingredient-result-grid > .ingredient-result-card:not(.ingredient-result-card--allergy) {
+    padding: var(--card-pad);
+  }
+}
+
+/* PC: 3열 — max-width 컨테이너 안에서만 동작 */
+@media (min-width: 1024px) {
+  .ingredient-result-grid,
+  .home-recipe-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* 피드 추천 섹션 — PC: 첫 카드 와이드(1열) + 나머지 2열 그리드 */
+.feed-reco-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--card-gap);
+}
+
+@media (min-width: 1024px) {
+  .feed-reco-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  /* 첫 번째 카드: 전체 너비 와이드 */
+  .feed-reco-grid > :first-child {
+    grid-column: 1 / -1;
+  }
+
+  /* 첫 번째 와이드 카드 이미지: 더 높게 */
+  .feed-reco-grid > :first-child .feed-reco-card__img {
+    height: 220px;
+  }
+}
+
+/* 레시피 피드 목록 */
+.recipe-feed-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--card-gap);
+}
+
+@media (min-width: 640px) {
+  .recipe-feed-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--card-gap);
+    align-items: stretch;
+  }
+
+  .recipe-feed-grid > button.press {
+    padding: var(--card-pad);
+  }
+}
+
+/* 홈 — 챗봇 FAB (레시피 등록 FAB와 동일 캡슐 크기) */
+.home-chat-fab {
+  position: fixed;
+  bottom: var(--fab-bottom);
+  right: var(--fab-offset);
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 60px;
+  padding: 14px 22px;
+  border-radius: 50px;
+  background: var(--surface);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 10px 24px rgba(17, 24, 39, 0.04);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--ink-1);
+  transition: box-shadow 0.15s ease, transform 0.12s ease;
+}
+
+.home-chat-fab__icon {
+  width: 34px;
+  height: 34px;
+  max-width: 34px;
+  max-height: 34px;
+  flex-shrink: 0;
+  object-fit: contain;
+  display: block;
+}
+
+.home-chat-fab__label {
+  font-size: 15px;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+@media (hover: hover) {
+  .home-chat-fab:hover {
+    box-shadow: 0 12px 28px rgba(17, 24, 39, 0.05);
+    transform: translateY(-1px);
+  }
+}
+
+.home-chat-fab.press:active {
+  box-shadow: 0 12px 28px rgba(17, 24, 39, 0.05);
+  transform: translateY(-1px);
+  opacity: 1;
+}
+
+/* 레시피 피드 — 등록 FAB (NavBar 위 고정) */
+.feed-register-fab {
+  position: fixed;
+  bottom: var(--fab-bottom);
+  right: var(--fab-offset);
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  background: var(--primary);
+  color: #fff;
+  border-radius: 50px;
+  padding: 12px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0 6px 16px color-mix(in srgb, var(--primary) 32%, transparent);
+}
+
+.feed-page__scroll {
+  padding-bottom: calc(var(--fab-bottom) + 48px);
+}
+
+/* 스피너 회전 애니메이션 */
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* ── AI 답변 로딩: 점 세 개 파도 애니메이션 ── */
+@keyframes typing-wave {
+  0%, 60%, 100% {
+    transform: translateY(0);
+    opacity: 0.35;
+  }
+  30% {
+    transform: translateY(-6px);
+    opacity: 1;
+  }
+}
+
+.typing-dots {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 2px;
+  height: 24px;
+}
+
+.typing-dots span {
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--ink-3);
+  animation: typing-wave 1.2s ease-in-out infinite;
+}
+
+.typing-dots span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.typing-dots span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+/* ── AI 답변 카드 ── */
+.assistant-message {
+  align-self: stretch;
+  max-width: 100%;
+  background: color-mix(in srgb, var(--surface) 55%, transparent);
+  border: 0;
+  box-shadow: none;
+  color: var(--ink-1);
+  line-height: 1.7;
+  font-size: 14px;
+  padding: 16px 18px;
+  border-radius: 22px;
+}
+
+/* ── AI 답변 액션 영역 (복사 아이콘 + 레시피 칩) ── */
+.assistant-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+  padding-left: 0;
+}
+
+.assistant-icon-action {
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  background: var(--surface-2);
+  color: var(--ink-3);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.assistant-icon-action:hover {
+  background: var(--surface);
+  color: var(--ink-2);
+}
+
+.assistant-chip-action {
+  min-height: 36px;
+  padding: 0 16px;
+  border-radius: 999px;
+  border: 0;
+  background: var(--surface-2);
+  color: var(--primary);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.assistant-chip-action:hover {
+  background: var(--surface);
+}
+
+/* ═══════════════════════════════════════════════════════════
+   레시피 피드 추천 캐러셀
+   - Smart Animate: cubic-bezier(0.34, 1.26, 0.64, 1) Bouncy
+   - Clip Content:  overflow:hidden on viewport
+   - 카드 비율:     3:4 (안정적 세로형)
+   - 이미지/텍스트: 각 50%
+   ═══════════════════════════════════════════════════════════ */
+/* ── 요구사항 1: 배경 박스 max-width + 중앙 정렬 (PC 전용) ── */
+@media (min-width: 1024px) {
+  .feed-reco-box {
+    max-width: 1024px;
+    margin: 0 auto;
+    border-radius: 16px !important;   /* PC에서 더 부드러운 둥글기 */
+  }
+}
+
+.feed-reco-carousel {
+  /* ── 사이즈 토큰 ── */
+  --rc-card-w:   min(72vw, 280px);
+  --rc-card-h:   calc(var(--rc-card-w) * 4 / 3);   /* 3:4 비율 */
+  --rc-peek:     52px;          /* 양옆 peek 노출 폭 */
+  --rc-gap:      14px;          /* 카드 사이 간격 */
+  --rc-step:     calc(var(--rc-card-w) + var(--rc-gap));
+  --rc-vp-w:     calc(var(--rc-card-w) + var(--rc-peek) * 2);
+  /* ── 요구사항 3: 대칭 상하 여백 ── */
+  position: relative;
+  width: 100%;
+  padding: 12px 0 12px;        /* 위아래 동일 — 비대칭 해소 */
+}
+
+/* viewport: Figma Clip Content — 영역 밖 깔끔하게 클립 */
+.feed-reco-carousel__viewport {
+  position: relative;          /* nav 버튼 기준점 */
+  width: var(--rc-vp-w);
+  max-width: 100%;
+  margin: 0 auto;
+  /* 요구사항 4: overflow:hidden 유지하되 하단 padding으로 그림자 공간 확보 */
+  overflow: hidden;
+  padding-bottom: 20px;        /* ← 카드 밑면 그림자 클리핑 방지 */
+}
+
+.feed-reco-carousel__track {
+  position: relative;
+  width: 100%;
+  height: var(--rc-card-h);
+}
+
+/* ── 슬라이드 공통 ── */
+.feed-reco-carousel__slide {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: var(--rc-card-w);
+  height: 100%;
+  border-radius: 16px;
+  overflow: hidden;            /* 카드 모서리 클립 */
+  /* 그림자 대신 미세 테두리로 배경과 경계 분리 */
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  /* Smart Animate — Bouncy 이징 */
+  transition:
+    transform   0.5s  cubic-bezier(0.34, 1.26, 0.64, 1),
+    opacity     0.45s cubic-bezier(0.25, 1, 0.5, 1),
+    box-shadow  0.45s ease,
+    filter      0.4s  ease;
+  transform:
+    translateX(calc(-50% + var(--slide-offset, 0) * var(--rc-step)))
+    scale(var(--rc-scale, 0.82));
+  transform-origin: center center;
+  opacity: 0;
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+
+/* ── Active: 중앙 카드 — 그림자 제거, scale로 입체감 표현 ── */
+.feed-reco-carousel__slide--active {
+  --rc-scale: 1.06;   /* 0.01 더 키워 확실히 앞으로 */
+  opacity: 1;
+  pointer-events: auto;
+  box-shadow: none;   /* 그림자 완전 제거 */
+}
+
+/* ── Peek: 양옆 엿보기 카드 — 더 뒤로 쏙 ── */
+.feed-reco-carousel__slide--peek {
+  --rc-scale: 0.92;
+  opacity: 0.45;      /* 0.5→0.45: 대비 극대화 */
+  filter: blur(0.5px);
+  pointer-events: none;
+}
+
+/* ── Far: 더 먼 카드 — 완전히 숨김 ── */
+.feed-reco-carousel__slide--far {
+  --rc-scale: 0.82;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* ── Nav 버튼 — 반투명 무경계 미니멀 스타일 ── */
+.feed-reco-carousel__nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 20;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  /* 요구사항: border·shadow 제거, 반투명 배경 + blur */
+  background: rgba(255, 255, 255, 0.5);
+  border: none;
+  box-shadow: none;
+  color: var(--ink-3);         /* 부드러운 회색 아이콘 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  transition: background 0.25s ease, transform 0.2s ease;
+}
+
+/* hover 시 선명해짐 */
+.feed-reco-carousel__nav:hover {
+  background: rgba(255, 255, 255, 0.9);
+  transform: translateY(-50%) scale(1.08);
+}
+
+.feed-reco-carousel__nav--prev { left: 4px; }
+.feed-reco-carousel__nav--next { right: 4px; }
+
+/* ── PC 사이즈 — 카드 키우고 peek 넓혀 박스 내 균형 개선 ── */
+@media (min-width: 1024px) {
+  .feed-reco-carousel {
+    --rc-card-w: 320px;         /* 더 넉넉한 카드 */
+    --rc-peek:   140px;         /* 양옆 여백 채움 */
+    --rc-gap:    20px;
+    padding: 16px 0 16px;       /* PC 상하 여백 대칭 */
+  }
+  .feed-reco-carousel__viewport {
+    padding-bottom: 24px;       /* PC 그림자 여유 */
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════
+   피드 카드 레이아웃 (캐러셀 전용)
+   - aspect-ratio: 3/4 (컨테이너 크기에 맞게 자동 결정)
+   - 이미지: 상단 50% — object-fit:cover 완전 적용
+   - 텍스트: 하단 50% — 패딩·여백 여유 있게
+   ═══════════════════════════════════════════════════════════ */
+.recipe-card--feed {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  min-height: 0;
+}
+
+/* 이미지 영역: 카드 높이의 50%, 찌그러짐 없이 cover */
+.recipe-card--feed .feed-reco-card__img {
+  flex: 0 0 50%;
+  width: 100%;
+  min-height: 0;
+  overflow: hidden;
+  border-radius: 0;
+  position: relative;
+}
+
+.recipe-card--feed .feed-reco-card__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+
+/* 텍스트 영역: 나머지 50% — 공간 여유 있게 */
+.recipe-card--feed .recipe-card--feed__body {
+  flex: 0 0 50%;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 6px;
+  padding: 14px 16px 14px;
+  background: var(--surface);
+}
+
+/* Responsive layout overrides: CSS media query only */
+.detail-hero-img {
+  height: 280px;
+}
+
+.ingredient-result-grid {
+  width: 100%;
+}
+
+.feed-reco-grid {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .ingredient-result-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--card-gap);
+  }
+
+  .feed-reco-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .detail-hero-img {
+    height: 400px;
+  }
+
+  .ingredient-result-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .feed-reco-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .feed-reco-grid > :first-child {
+    grid-column: auto;
+  }
+
+  .feed-reco-grid > :first-child .feed-reco-card__img {
+    height: 160px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ingredient-result-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .feed-reco-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+.recipe-card--feed {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  gap: 0;
+  padding: 0;
+  aspect-ratio: 2 / 3;
+  min-height: 0;
+  max-height: 70vh;
+}
+
+.recipe-card--feed .feed-reco-card__img {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  border-radius: 0;
+}
+
+.recipe-card--feed .recipe-card--feed__body {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px;
+  padding: 12px 14px 13px;
+  background: var(--surface);
+}
+
+@media (max-width: 767px) {
+  .home-hero-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+    margin: 6px 0 26px !important;
+  }
+
+  .home-hero-title__break {
+    display: block;
+  }
+
+  .feed-reco-box__title {
+    font-size: 18px !important;
+    line-height: 1.35 !important;
+  }
+
+  .feed-reco-box__desc {
+    font-size: 12.5px !important;
+    line-height: 1.5;
+    margin-top: 4px !important;
+  }
+
+  .home-chat-fab {
+    gap: 10px;
+    min-height: 50px;
+    padding: 10px 16px;
+  }
+
+  .home-chat-fab__icon {
+    width: 26px;
+    height: 26px;
+    max-width: 26px;
+    max-height: 26px;
+  }
+
+  .home-chat-fab__label {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-hero-title__break {
+    display: none;
+  }
+}
+
+/* DateTimePickerField 휠 피커 드럼 — 스크롤바 완전 숨김 */
+.dtpf-drum::-webkit-scrollbar {
+  display: none;
+}
+
+/* 식생활 기록 시트 — PC 하단 고정 스타일 */
+@media (min-width: 640px) {
+  /* 너비 제한 + 전체 라운드 + 바닥에서 16px 띄움 */
+  .diet-log-sheet {
+    max-width: 680px !important;
+    border-radius: 16px !important;
+    max-height: calc(100dvh - 40px) !important;
+    overflow-y: auto !important;
+    margin-bottom: 16px !important;
+  }
+
+  /* 드래그 핸들 숨김 (띄운 상태에서 어색함) */
+  .diet-log-sheet > div:first-child {
+    display: none;
+  }
+}
+
+/* 식생활 기록 BottomSheet — PC 중앙 고정 */
+.diet-log-form-inner {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (min-width: 640px) {
+  .diet-log-form-inner {
+    max-width: 560px;
+    margin: 0 auto;
+  }
+}
+
+/* 반응 버튼: 모바일 2열 / PC(640px+) 4열 */
+.diet-log-reaction-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6px;
+}
+
+@media (min-width: 640px) {
+  .diet-log-reaction-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

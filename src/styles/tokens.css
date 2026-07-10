@@ -1,0 +1,144 @@
+/* 하루한끼 — Design tokens (from prototype/styles.css) */
+@import 'pretendard/dist/web/static/pretendard.css';
+@import url('https://fonts.googleapis.com/css2?family=Cafe24+Decobox&display=swap');
+
+@font-face {
+  font-family: 'High1Daylily';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-2@1.0/high1WonchuriBodyR.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'High1Daylily';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-2@1.0/high1WonchuriBodyB.woff2') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'High1WonchuriTitle';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-2@1.0/high1WonchuriTitleL.woff2') format('woff2');
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'High1WonchuriTitle';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-2@1.0/high1WonchuriTitleM.woff2') format('woff2');
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'High1WonchuriTitle';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-2@1.0/high1WonchuriTitleB.woff2') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ChangwonDangamRounded';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2511-1@1.0/ChangwonDangamRound-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cafe24 Decobox';
+  src: url('/fonts/Cafe24Decobox.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-title: 'ChangwonDangamRounded', 'Pretendard', sans-serif;
+
+  /* Brand */
+  --primary:       #D85A30;
+  --primary-hover: #B94926;
+  --primary-soft:  #FCE9DD;
+
+  /* Background */
+  --bg:            #FAF7F2;
+  --surface:       #FFFFFF;
+  --surface-2:     #F6F1E8;
+  --bg-tint:       #F4EFE6;
+
+  /* Text */
+  --ink-1:         #2A2723;
+  --ink-2:         #5A554E;
+  --ink-3:         #948D82;
+  --ink-4:         #B8B0A3;
+
+  /* Border */
+  --border:        #E8E1D2;
+  --border-strong: #D9D0BD;
+  --divider:       #EFE9DC;
+
+  /* Status */
+  --safe-bg:       #E8F5E9;
+  --safe-fg:       #2E7D32;
+  --safe-bd:       #C8E6C9;
+  --caution-bg:    #FFF8E1;
+  --caution-fg:    #A87206;
+  --caution-bd:    #FFECB3;
+  --danger-bg:     #FFF5F5;
+  --danger-fg:     #C53030;
+  --danger-bd:     #FEB2B2;
+
+  /* Info (snack badges) */
+  --info-bg:       #E3F2FD;
+  --info-fg:       #0D47A1;
+
+  /* Spacing scale */
+  --space-1: 8px;
+  --space-2: 12px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 24px;
+  --space-6: 32px;
+
+  /* Layout */
+  --app-width: 360px;
+  --app-max-width: 1200px;
+  --nav-height: 56px;
+  --fab-offset: var(--space-3);
+  --fab-bottom: calc(var(--nav-height) + var(--fab-offset));
+  --bp-md: 640px;
+
+  /* Responsive page rhythm (mobile-first, 360px baseline) */
+  --page-pad-x: var(--space-3);
+  --section-gap: var(--space-4);
+  --card-pad: var(--space-2);
+  --card-gap: var(--space-2);
+
+  /* Typography scale */
+  --text-headline: 26px;
+  --text-subtitle: 16px;
+}
+
+@media (min-width: 640px) {
+  :root {
+    --page-pad-x: var(--space-5);
+    --section-gap: var(--space-6);
+    --card-pad: var(--space-3);
+    --card-gap: var(--space-3);
+    --text-headline: 30px;
+    --text-subtitle: 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --page-pad-x: 48px;
+    --card-pad: var(--space-4);
+    --card-gap: var(--space-4);
+  }
+}
+
+/* 레시피 카드 이미지 없음 배경 — 모바일·PC 공통 웜 아이보리 */
+:root {
+  --recipe-thumb-placeholder-bg: #FAF2E6;
+}
