@@ -50,8 +50,8 @@
 <polyline points="930.0,434.0 930.0,455.0" fill="none" stroke="#E27B85" stroke-width="2.4"/><path d="M930.0,462.0 L926.2,455.0 L933.8,455.0 Z" fill="#E27B85"/>
 <polyline points="930.0,536.0 930.0,553.0" fill="none" stroke="#E27B85" stroke-width="2.4"/><path d="M930.0,560.0 L926.2,553.0 L933.8,553.0 Z" fill="#E27B85"/>
 <polyline points="450.0,400.0 763.0,400.0" fill="none" stroke="#E27B85" stroke-width="2.4" stroke-dasharray="7 5"/><path d="M770.0,400.0 L763.0,403.8 L763.0,396.2 Z" fill="#E27B85"/>
-<text x="610.0" y="384.0" font-size="13" fill="#E27B85" font-weight="800" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">unknown</text>
-<text x="610.0" y="402.0" font-size="11.5" fill="#b04c55" font-weight="600" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">(Rule 미보유 재료)</text>
+<text x="610.0" y="368.0" font-size="13" fill="#E27B85" font-weight="800" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">unknown</text>
+<text x="610.0" y="386.0" font-size="11.5" fill="#b04c55" font-weight="600" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">(Rule 미보유 재료)</text>
 <rect x="70.0" y="762.0" width="320.0" height="58.0" rx="11" fill="#eef7ee" stroke="#5FA463" stroke-width="2" opacity="1"/>
 <text x="230.0" y="781.0" font-size="14.5" fill="#2b2f38" font-weight="700" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">Rule · 재료 DB 갱신</text>
 <text x="230.0" y="802.0" font-size="11.5" fill="#7b8290" font-weight="400" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">별도 승인 라운드 · 판정 데이터 확장</text>
@@ -61,8 +61,8 @@
 <text x="770.0" y="720.0" font-size="12" fill="#b04c55" font-weight="600" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">리포트 + 승인 SQL 동봉</text>
 <polyline points="430.0,791.0 397.0,791.0" fill="none" stroke="#5FA463" stroke-width="2.4"/><path d="M390.0,791.0 L397.0,787.2 L397.0,794.8 Z" fill="#5FA463"/>
 <text x="410.0" y="778.0" font-size="12" fill="#5FA463" font-weight="700" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">승인 시</text>
-<polyline points="70.0,791.0 92.0,791.0 92.0,486.0 123.0,486.0" fill="none" stroke="#5FA463" stroke-width="2.4"/><path d="M130.0,486.0 L123.0,489.8 L123.0,482.2 Z" fill="#5FA463"/>
-<text x="88" y="638.5" font-size="11.5" fill="#5FA463" font-weight="700" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" transform="rotate(-90 88 638.5)">승인 시 Rule/DB 반영 → 판정 범위 확장</text>
+<polyline points="92.0,762.0 92.0,486.0 123.0,486.0" fill="none" stroke="#5FA463" stroke-width="2.4"/><path d="M130.0,486.0 L123.0,489.8 L123.0,482.2 Z" fill="#5FA463"/>
+<text x="78" y="624.0" font-size="11.5" fill="#5FA463" font-weight="700" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" transform="rotate(-90 78 624.0)">승인 시 Rule/DB 반영 → 판정 범위 확장</text>
 <polyline points="130.0,569.0 116.0,569.0 116.0,176.0 123.0,176.0" fill="none" stroke="#6E86D6" stroke-width="2.4" stroke-dasharray="6 5"/><path d="M130.0,176.0 L123.0,179.8 L123.0,172.2 Z" fill="#6E86D6"/>
 <text x="112" y="372.5" font-size="12" fill="#6E86D6" font-weight="700" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" transform="rotate(-90 112 372.5)">응답 반환</text>
 <rect x="300.0" y="840.0" width="620.0" height="34.0" rx="10" fill="#f6f7f9" stroke="#e3e7ee" stroke-width="1.2" opacity="1"/>
