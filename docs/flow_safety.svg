@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1220 900" width="1220" height="900">
+<rect width="1220" height="900" fill="#eef3fb"/>
+<rect x="16.0" y="16.0" width="1188.0" height="868.0" rx="22" fill="#ffffff" stroke="#dfe6f2" stroke-width="2" opacity="1"/>
+<text x="56.0" y="56.0" font-size="26" fill="#2b2f38" font-weight="800" text-anchor="start" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">재료 안전성 검증 흐름</text>
+<text x="56.0" y="84.0" font-size="14" fill="#8891a0" font-weight="400" text-anchor="start" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">실시간 Rule 판정 루프  +  성장(에이전트) 루프 — 판정은 Rule, 지식 확장은 에이전트+사람 승인</text>
+<rect x="55.0" y="108.0" width="470.0" height="612.0" rx="16" fill="#eef3fd" stroke="#6E86D6" stroke-width="2" opacity="1"/>
+<rect x="695.0" y="108.0" width="470.0" height="612.0" rx="16" fill="#fdeef0" stroke="#E27B85" stroke-width="2" stroke-dasharray="9 6" opacity="1"/>
+<text x="77.0" y="138.0" font-size="16" fill="#6E86D6" font-weight="800" text-anchor="start" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">①  실시간 판정 (Runtime · Rule)</text>
+<text x="717.0" y="138.0" font-size="16" fill="#E27B85" font-weight="800" text-anchor="start" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">②  성장 루프 (Agent · 예정)</text>
+<rect x="1033.0" y="122.0" width="118.0" height="28.0" rx="14" fill="#E27B85" stroke="none" stroke-width="0" opacity="1"/>
+<text x="1092.0" y="136.0" font-size="12" fill="#ffffff" font-weight="700" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">🚧 곧 구현 (예정)</text>
+<rect x="130.0" y="150.0" width="320.0" height="52.0" rx="11" fill="#ffffff" stroke="#cfd5df" stroke-width="1.6" opacity="1"/>
+<text x="290.0" y="166.0" font-size="14.5" fill="#2b2f38" font-weight="700" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">사용자</text>
+<text x="290.0" y="187.0" font-size="11.5" fill="#7b8290" font-weight="400" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">재료 입력 · 검색</text>
+<rect x="130.0" y="222.0" width="320.0" height="52.0" rx="11" fill="#ffffff" stroke="#cfd5df" stroke-width="1.6" opacity="1"/>
+<text x="290.0" y="238.0" font-size="14.5" fill="#2b2f38" font-weight="700" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">Frontend (React)</text>
+<text x="290.0" y="259.0" font-size="11.5" fill="#7b8290" font-weight="400" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">/safety 요청 · Zustand</text>
+<rect x="130.0" y="294.0" width="320.0" height="52.0" rx="11" fill="#ffffff" stroke="#cfd5df" stroke-width="1.6" opacity="1"/>
+<text x="290.0" y="310.0" font-size="14.5" fill="#2b2f38" font-weight="700" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">API Gateway</text>
+<text x="290.0" y="331.0" font-size="11.5" fill="#7b8290" font-weight="400" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">FastAPI · Rate Limit</text>
+<rect x="130.0" y="366.0" width="320.0" height="68.0" rx="11" fill="#ffffff" stroke="#2FA8A2" stroke-width="2.4" opacity="1"/>
+<text x="290.0" y="390.0" font-size="14.5" fill="#2b2f38" font-weight="700" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">safety_checker · Rule 판정</text>
+<text x="290.0" y="411.0" font-size="11.5" fill="#7b8290" font-weight="400" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">Layer1 절대위험 / Layer2 조건부</text>
+<rect x="130.0" y="458.0" width="320.0" height="56.0" rx="11" fill="#ffffff" stroke="#cfd5df" stroke-width="1.6" opacity="1"/>
+<text x="290.0" y="476.0" font-size="14.5" fill="#2b2f38" font-weight="700" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">Supabase 재료 · Rule DB</text>
+<text x="290.0" y="497.0" font-size="11.5" fill="#7b8290" font-weight="400" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">정규화 재료 270+ 조회</text>
+<rect x="130.0" y="538.0" width="320.0" height="62.0" rx="11" fill="#ffffff" stroke="#cfd5df" stroke-width="1.6" opacity="1"/>
+<text x="290.0" y="559.0" font-size="14.5" fill="#2b2f38" font-weight="700" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">결과 배지 반환</text>
+<text x="290.0" y="580.0" font-size="11.5" fill="#7b8290" font-weight="400" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">안전 · 주의 · 위험 · unknown</text>
+<polyline points="290.0,202.0 290.0,215.0" fill="none" stroke="#6E86D6" stroke-width="2.4"/><path d="M290.0,222.0 L286.2,215.0 L293.8,215.0 Z" fill="#6E86D6"/>
+<polyline points="290.0,274.0 290.0,287.0" fill="none" stroke="#6E86D6" stroke-width="2.4"/><path d="M290.0,294.0 L286.2,287.0 L293.8,287.0 Z" fill="#6E86D6"/>
+<polyline points="290.0,346.0 290.0,359.0" fill="none" stroke="#6E86D6" stroke-width="2.4"/><path d="M290.0,366.0 L286.2,359.0 L293.8,359.0 Z" fill="#6E86D6"/>
+<polyline points="290.0,434.0 290.0,451.0" fill="none" stroke="#6E86D6" stroke-width="2.4"/><path d="M290.0,458.0 L286.2,451.0 L293.8,451.0 Z" fill="#6E86D6"/>
+<polyline points="290.0,514.0 290.0,531.0" fill="none" stroke="#6E86D6" stroke-width="2.4"/><path d="M290.0,538.0 L286.2,531.0 L293.8,531.0 Z" fill="#6E86D6"/>
+<rect x="723.0" y="164.0" width="414.0" height="176.0" rx="12" fill="#ffffff" stroke="#f0c4c9" stroke-width="1.4" opacity="1"/>
+<text x="741.0" y="190.0" font-size="14" fill="#b04c55" font-weight="800" text-anchor="start" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">이 루프가 하는 일</text>
+<text x="741.0" y="220.0" font-size="12.5" fill="#5b6270" font-weight="500" text-anchor="start" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">· 실시간 판정에서 놓친 unknown 재료 신호를 모은다</text>
+<text x="741.0" y="247.0" font-size="12.5" fill="#5b6270" font-weight="500" text-anchor="start" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">· 에이전트가 근거를 조사·정리해 후보 카드를 만든다</text>
+<text x="741.0" y="274.0" font-size="12.5" fill="#5b6270" font-weight="500" text-anchor="start" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">· 판정은 하지 않는다 — 사람(운영자) 승인 후에만 반영</text>
+<text x="741.0" y="301.0" font-size="12.5" fill="#5b6270" font-weight="500" text-anchor="start" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">· Phase 0 수집 → 1 지식카드 → 2 에이전트 → 3 챗봇 주입</text>
+<rect x="770.0" y="366.0" width="320.0" height="68.0" rx="11" fill="#ffffff" stroke="#E27B85" stroke-width="1.8" opacity="1"/>
+<text x="930.0" y="390.0" font-size="14.5" fill="#b04c55" font-weight="700" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">unknown 검색어 수집</text>
+<text x="930.0" y="411.0" font-size="11.5" fill="#7b8290" font-weight="400" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">Phase 0 · RPC 로깅</text>
+<rect x="770.0" y="462.0" width="320.0" height="74.0" rx="11" fill="#fff5f6" stroke="#E27B85" stroke-width="1.8" stroke-dasharray="6 4" opacity="1"/>
+<text x="930.0" y="489.0" font-size="14.5" fill="#b04c55" font-weight="700" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">재료 검수 에이전트</text>
+<text x="930.0" y="510.0" font-size="11.5" fill="#7b8290" font-weight="400" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">Collector→…→Reporter · LangGraph</text>
+<rect x="770.0" y="560.0" width="320.0" height="58.0" rx="11" fill="#ffffff" stroke="#E27B85" stroke-width="1.8" opacity="1"/>
+<text x="930.0" y="579.0" font-size="14.5" fill="#b04c55" font-weight="700" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">staging 저장</text>
+<text x="930.0" y="600.0" font-size="11.5" fill="#7b8290" font-weight="400" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">is_visible=false · 후보 큐</text>
+<polyline points="930.0,434.0 930.0,455.0" fill="none" stroke="#E27B85" stroke-width="2.4"/><path d="M930.0,462.0 L926.2,455.0 L933.8,455.0 Z" fill="#E27B85"/>
+<polyline points="930.0,536.0 930.0,553.0" fill="none" stroke="#E27B85" stroke-width="2.4"/><path d="M930.0,560.0 L926.2,553.0 L933.8,553.0 Z" fill="#E27B85"/>
+<polyline points="450.0,400.0 763.0,400.0" fill="none" stroke="#E27B85" stroke-width="2.4" stroke-dasharray="7 5"/><path d="M770.0,400.0 L763.0,403.8 L763.0,396.2 Z" fill="#E27B85"/>
+<text x="610.0" y="384.0" font-size="13" fill="#E27B85" font-weight="800" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">unknown</text>
+<text x="610.0" y="402.0" font-size="11.5" fill="#b04c55" font-weight="600" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">(Rule 미보유 재료)</text>
+<rect x="70.0" y="762.0" width="320.0" height="58.0" rx="11" fill="#eef7ee" stroke="#5FA463" stroke-width="2" opacity="1"/>
+<text x="230.0" y="781.0" font-size="14.5" fill="#2b2f38" font-weight="700" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">Rule · 재료 DB 갱신</text>
+<text x="230.0" y="802.0" font-size="11.5" fill="#7b8290" font-weight="400" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">별도 승인 라운드 · 판정 데이터 확장</text>
+<rect x="430.0" y="762.0" width="360.0" height="58.0" rx="11" fill="#fff6e0" stroke="#E8B84B" stroke-width="2" opacity="1"/>
+<text x="610.0" y="791.0" font-size="15" fill="#8a6d10" font-weight="700" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">👤 운영자 승인 (Human-in-the-loop)</text>
+<polyline points="930.0,618.0 930.0,730.0 610.0,730.0 610.0,755.0" fill="none" stroke="#E27B85" stroke-width="2.4" stroke-dasharray="7 5"/><path d="M610.0,762.0 L606.2,755.0 L613.8,755.0 Z" fill="#E27B85"/>
+<text x="770.0" y="720.0" font-size="12" fill="#b04c55" font-weight="600" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">리포트 + 승인 SQL 동봉</text>
+<polyline points="430.0,791.0 397.0,791.0" fill="none" stroke="#5FA463" stroke-width="2.4"/><path d="M390.0,791.0 L397.0,787.2 L397.0,794.8 Z" fill="#5FA463"/>
+<text x="410.0" y="778.0" font-size="12" fill="#5FA463" font-weight="700" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">승인 시</text>
+<polyline points="70.0,791.0 92.0,791.0 92.0,486.0 123.0,486.0" fill="none" stroke="#5FA463" stroke-width="2.4"/><path d="M130.0,486.0 L123.0,489.8 L123.0,482.2 Z" fill="#5FA463"/>
+<text x="88" y="638.5" font-size="11.5" fill="#5FA463" font-weight="700" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" transform="rotate(-90 88 638.5)">승인 시 Rule/DB 반영 → 판정 범위 확장</text>
+<polyline points="130.0,569.0 116.0,569.0 116.0,176.0 123.0,176.0" fill="none" stroke="#6E86D6" stroke-width="2.4" stroke-dasharray="6 5"/><path d="M130.0,176.0 L123.0,179.8 L123.0,172.2 Z" fill="#6E86D6"/>
+<text x="112" y="372.5" font-size="12" fill="#6E86D6" font-weight="700" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" transform="rotate(-90 112 372.5)">응답 반환</text>
+<rect x="300.0" y="840.0" width="620.0" height="34.0" rx="10" fill="#f6f7f9" stroke="#e3e7ee" stroke-width="1.2" opacity="1"/>
+<text x="610.0" y="857.0" font-size="13" fill="#5b6270" font-weight="600" text-anchor="middle" font-family="'Segoe UI','Malgun Gothic','Apple SD Gothic Neo',sans-serif" dominant-baseline="middle">에이전트·LLM 은 안전 판정 ❌ — 판정은 항상 Rule · DB 반영은 사람 승인</text>
+</svg>
